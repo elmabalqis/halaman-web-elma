@@ -1,1 +1,117 @@
 # halaman-web-elma
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotografi Dasar - Elma Balqis Photography</title>
+</head>
+<body>
+
+  <!-- Judul Utama -->
+  <h1>Elma Balqis Photography</h1>
+  <p><em>Mengabadikan setiap momen berharga dengan lensa kamera 📸</em></p>
+  <hr>
+
+  <!-- Tentang Fotografi -->
+  <h2>Apa itu Fotografi?</h2>
+  <p>
+    Fotografi adalah seni <strong>mengambil gambar</strong> menggunakan kamera.
+    Kata <cite>photography</cite> berasal dari bahasa Yunani yang berarti "melukis dengan cahaya".
+    <br>
+    Seorang fotografer berusaha menangkap momen agar bisa dikenang selamanya.
+  </p>
+  <blockquote>
+    "Satu gambar dapat menceritakan seribu kata." 
+  </blockquote>
+  <p>Fotografi juga sering digunakan dalam dunia <mark>media</mark>, iklan, hingga dokumentasi acara.</p>
+
+  <!-- Jenis Fotografi -->
+  <h2>Jenis-Jenis Fotografi</h2>
+  <ul>
+    <li>Potret (Portrait)</li>
+    <li>Pemandangan (Landscape)</li>
+    <li>Makro (Macro)</li>
+    <li>Jurnalistik (Photojournalism)</li>
+  </ul>
+
+  <!-- Peralatan Fotografi -->
+  <h2>Peralatan Fotografi</h2>
+  <ol>
+    <li>Kamera DSLR/Mirrorless</li>
+    <li>Lensa
+      <ul>
+        <li>Lensa Wide</li>
+        <li>Lensa Tele</li>
+        <li>Lensa Macro</li>
+      </ul>
+    </li>
+    <li>Tripod</li>
+    <li>Lighting</li>
+  </ol>
+
+  <!-- Deskripsi -->
+  <h2>Istilah Fotografi</h2>
+  <dl>
+    <dt>ISO</dt>
+    <dd>Tingkat sensitivitas sensor kamera terhadap cahaya.</dd>
+    <dt>Aperture</dt>
+    <dd>Bukaan lensa yang mengatur banyaknya cahaya masuk.</dd>
+    <dt>Shutter Speed</dt>
+    <dd>Kecepatan rana saat menangkap gambar.</dd>
+  </dl>
+
+  <hr>
+
+  <!-- Gambar -->
+  <h2>Galeri Foto</h2>
+  <p>Lihat beberapa contoh hasil foto karya <strong>Elma Balqis</strong>:</p>
+  <a href="https://www.instagram.com/elmablqis?igsh=bWJndjAxZ3lodjMw" target="_blank">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+       alt="Instagram" width="70" height="70">"Instagram Elma Balqis"
+  </a>
+  
+  <hr>
+
+  <!-- Formulir Kontak -->
+  <h2>Hubungi Elma Balqis</h2>
+  <form action="proses_form.html" method="post">
+    <label>Nama:</label><br>
+    <input type="text" name="nama"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Jenis Fotografi Favorit:</label><br>
+    <input type="radio" name="jenis" value="Potret"> Potret
+    <input type="radio" name="jenis" value="Pemandangan"> Pemandangan
+    <input type="radio" name="jenis" value="Makro"> Makro<br><br>
+
+    <label>Peralatan yang dimiliki:</label><br>
+    <input type="checkbox" name="gear" value="Kamera"> Kamera
+    <input type="checkbox" name="gear" value="Lensa"> Lensa
+    <input type="checkbox" name="gear" value="Tripod"> Tripod<br><br>
+
+    <label>Pesan:</label><br>
+    <textarea name="pesan" rows="4" cols="40"></textarea><br><br>
+
+    <label>Pilih Paket Workshop:</label><br>
+    <select name="paket">
+      <option value="basic">Basic</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
+    </select><br><br>
+
+    <button type="submit">Kirim</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <p><small>Hak Cipta &copy; 2025 Elma Balqis Photography</small></p>
+    <p><abbr title="Elma Balqis Photography">EBP</abbr> hadir untuk mendukung kreativitasmu!</p>
+  </footer>
+
+</body>
+</html>
